@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background: -webkit-linear-gradient(to top, #ffdde1, #ee9ca7);  
+    background: linear-gradient(to top, #ffdde1, #ee9ca7);
+    font-family: 'Neuton', serif;
+    font-size: 20px;
+}
+
+/*********************** Navbar *************************************/
+@media (max-width: 1100px) {
+    .nav-bar .div-icon{
+        padding: 15px 130px;
+    }
+}
+
+nav {
+    float: left;
+}
+.menu-nav {
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+
+  }
+  .menu-li {
+      padding-right: 10px;
+      list-style-type: none;
+  }
+
+
+  .div-icon {
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
+  }
+
+  .menu-icon {
+      padding-left: 10px;
+      list-style-type: none;
+  }
+
+  /*********************** Banner *************************************/
+
+  @media (min-width: 600px) {
+      .main-ban{
+        display: block;
+      }
+      .main-banner{
+          display: none;
+      }
+    
+  }
+  @media (max-width: 600px) {
+     .main-banner{
+         display: block;
+    }
+    .main-ban{
+        display: none;
+        
+    }
+  }
+
+.nav-bar, #banner1, .img-sec, .footer, .announce {
+    padding-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.main-ban {
+    width: 100%;
+}
+
+.main-banner {
+    width: 100%;
+}
+
+
+
+/***********************  Announcement ****************************/
+
+.announce {
+    color: #4c5088;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*********************** Card Select  *************************************/
+
+
+.img-sec {
+    text-align: center;
+}
+
+
+.card {
+    width: 250px;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 5px;
+    display: inline-block;
+
+}
+
+.image-size {
+    width: 200px;
+    height: 200px;
+    padding:5px;
+    margin-top: 15px;
+}
+
+.card:hover {
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
+p{
+    margin: 5px 10px 15px 10px;
+}
+
+.selcted-card {
+    background-color: peachpuff !important;
+
+}
+
+
+
+/********************* Footer Section *********************/
+@media (max-width: 600px) {
+    .footer {
+        padding: 50px 50px;
+        justify-content: space-between;
+    }
+}
+.footer {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    height: 100px;
+}
+.footer-icons {
+    float: left;
+    padding-left: 15px;
+}
+
+.terms-list {
+    text-align: right;
+    float: right;
+    padding-top:10px;
+    padding-right: 15px;
+}
+
+.icon-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+.fa {
+    margin: 10px;
+}
